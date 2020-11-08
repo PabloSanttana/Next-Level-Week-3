@@ -1,0 +1,75 @@
+.deleteOrphanage__container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ff669d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.deleteOrphanage__content {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deleteOrphanage__info {
+  display: flex;
+  flex-direction: column;
+}
+.deleteOrphanage__info__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 80px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  /* Texts / Botão */
+
+  color: #ffffff;
+}
+.deleteOrphanage__info__span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 34px;
+  /* or 142% */
+
+  text-align: center;
+
+  /* Texts / Botão */
+
+  color: #ffffff;
+}
+.deleteOrphanage__img {
+  width: 30%;
+  margin-left: 50px;
+}
+.deleteOrphanage__buttonDelete {
+  background: #d6487b;
+  padding: 15px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 40px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+  border: none;
+}
+.deleteOrphanage__cancel {
+  position: absolute;
+  top: 30px;
+  left: 10%;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: #d6487b;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+Aplicação Web  {
+	
+	yarn create react-app web --template typescript 
+	
+	npx create-react-app web --template typescript 
+}
+
+Backend {
+
+	yarn add multer para lidar com imagens
+	yarn add express-async-errors   ---- tratar erros 
+	yarn add yup --- validações 
+	yarn add cors 
+
+	yarn typeorm migration:create -n create_name
+
+
+
+}
+
+mobile expo {
+
+
+	https://docs.expo.io/
+
+
+
+}

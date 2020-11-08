@@ -1,0 +1,48 @@
+.orphanageCard__container {
+  width: 500px;
+  height: 360px;
+  border-radius: 20px;
+  margin: 0 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+.orphanageCard__map-container {
+  margin-top: 64px;
+  background: #ffff;
+  border: 1px solid #b3dae2;
+  border-radius: 20px;
+}
+.orphanageCard__map-container footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin: 0 20px;
+}
+.orphanageCard__map-container footer span.orphanageCard__span {
+  font-size: 26px;
+  color: #4d6f80;
+  width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.orphanageCard__map-container footer .orphanageCard__group__actions {
+  display: flex;
+}
+.orphanageCard__map-container footer .orphanageCard__group__actions a {
+  background: #ebf2f5;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.orphanageCard__map-container
+  footer
+  .orphanageCard__group__actions
+  a:first-child {
+  margin-right: 10px;
+}

@@ -1,0 +1,159 @@
+.login__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.login__container .login__containerLeft {
+  width: 70%;
+  height: 100vh;
+  min-height: 600px;
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__container .login__containerLeft .login__Left__content {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+.login__container .login__containerLeft .login__Left__content img {
+  width: 30%;
+  margin-bottom: 50px;
+}
+.login__container .login__containerLeft .login__Left__content h1 {
+  font-size: 5rem;
+  margin-bottom: 60px;
+}
+
+.login__container .login__containerRigth {
+  width: 30%;
+  min-width: 390px;
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__container .login__containerRigth .login__rigth__content {
+  width: 90%;
+  height: 70%;
+}
+.login__container
+  .login__containerRigth
+  .login__rigth__content
+  a.login__goback {
+  position: absolute;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  border: 1px solid #d3e2e5;
+  cursor: pointer;
+}
+.login__container .login__containerRigth .login__rigth__content h2 {
+  color: #5c8599;
+  margin-bottom: 60px;
+}
+.login__container .login__containerRigth .login__rigth__content form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+.login__container .login__containerRigth .login__rigth__content label {
+  color: #8fa7b2;
+  margin-bottom: 7px;
+}
+.login__container
+  .login__containerRigth
+  .login__rigth__content
+  form
+  input.inputText {
+  height: 64px;
+  border-radius: 20px;
+  background: #f5f8fa;
+  border: 1px solid #d3e2e5;
+  color: #8fa7b2;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  font-size: 20px;
+}
+.login__container
+  .login__containerRigth
+  .login__rigth__content
+  form
+  .login__formgroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.login__container
+  .login__containerRigth
+  .login__rigth__content
+  form
+  .login__formgroup
+  div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__container
+  .login__containerRigth
+  .login__rigth__content
+  form
+  .login__formgroup
+  div
+  label {
+  margin: 0px 0px;
+}
+.login__container
+  .login__containerRigth
+  .login__rigth__content
+  form
+  .login__formgroup
+  input {
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: #f5f8fa;
+  border: 1px solid #d3e2e5;
+}
+.login__container
+  .login__containerRigth
+  .login__rigth__content
+  form
+  .login__formgroup
+  a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  /* identical to box height */
+
+  /* Texts / Complementos */
+
+  color: #8fa7b3;
+}
+.login__container
+  .login__containerRigth
+  .login__rigth__content
+  form
+  button[type="submit"] {
+  background: #37c77f;
+  height: 64px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 26px;
+  border: 1px solid #d3e2e5;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}

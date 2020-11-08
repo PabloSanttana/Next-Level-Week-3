@@ -1,0 +1,4 @@
+/node_modules
+/uploads
+/src/database/database.sqlite
+yarn-error.log*
